@@ -1908,6 +1908,7 @@ body#layout:after{content:'Design by Bungabdi.com';display:block;font-family:Rob
                 <data:post.body/>
               </div>
               <!-- Ads after post content, if post page. -->
+<div id='tombol2'/>
               <b:if cond='data:view.isPost'><div id='after-ad'/></b:if>
             </b:includable>
             <b:includable id='postBodySnippet' var='post'>
@@ -2011,7 +2012,6 @@ body#layout:after{content:'Design by Bungabdi.com';display:block;font-family:Rob
             </b:includable>
             <b:includable id='postLabels' var='post'>
               <b:if cond='data:post.labels'>
-<div id='tombol2'/>
                 <div class='post-tags'>
                   <b:if cond='data:allBylineItems.labels.label != &quot;&quot;'><span class='tags-label'><data:allBylineItems.labels.label/></span></b:if>
                   <b:loop values='data:post.labels' var='label'>
